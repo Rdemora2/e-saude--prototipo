@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply font-sans text-gray-800;
+  }
+}
+
+@layer components {
+  .container {
+    @apply px-4 mx-auto max-w-7xl;
+  }
+}
+
+.swiper-pagination-bullet {
+  @apply bg-primary;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  @apply hidden md:flex;
+}
+
+.swiper-button-disabled {
+  @apply opacity-50 cursor-not-allowed;
+}
