@@ -1,0 +1,9 @@
+/* Arquivo dedicado para configurações de fontes */
+html,
+body,
+button,
+input,
+textarea,
+select {
+  font-family: "Poppins" !important;
+}
